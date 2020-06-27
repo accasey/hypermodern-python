@@ -3,7 +3,7 @@ name = "hypermodern-python"
 version = "0.1.0"
 description = "The hypermodern Python project"
 authors = ["Andrew Casey <accasey@hotmail.com.au>"]
-license = "GNU General Public License v3.0"
+license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/accasey/hypermodern-python"
 repository = "https://github.com/accasey/hypermodern-python"
@@ -13,6 +13,8 @@ keywords = ["hypermodern"]
 python = "^3.8"
 click = "^7.1.2"
 requests = "^2.24.0"
+desert = "^2020.1.6"
+marshmallow = "^3.6.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.4.3"
@@ -26,6 +28,9 @@ flake8-black = "^0.2.0"
 flake8-bugbear = "^20.1.4"
 flake8-import-order = "^0.18.1"
 safety = "^1.9.0"
+mypy = "^0.782"
+typeguard = "^2.9.1"
+flake8-annotations = "^2.1.0"
 
 [tool.poetry.scripts]
 hypermodern-python = "hypermodern_python.console:main"
